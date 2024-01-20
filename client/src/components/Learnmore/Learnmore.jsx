@@ -46,7 +46,7 @@ const Learnmore = () => {
             initiative not only tackles food wastage but also strives to make a
             meaningful impact on communities struggling with hunger.
           </p>
-          <Link href="/login" class="btn2">
+          <Link to="/login" class="btn2">
             Log in
           </Link>
         </div>

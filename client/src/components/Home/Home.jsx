@@ -5,9 +5,8 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
-      <div class="bg-black">
-        <header class="absolute inset-x-0 top-0 z-50">
-          {/* <Header /> */}
+      <div>
+        {/* <header class="absolute inset-x-0 top-0 z-50">
           <div class="lg:hidden" role="dialog" aria-modal="true">
             <div class="fixed inset-0 z-50"></div>
             <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
@@ -71,14 +70,14 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </header>
-        <div class="relative isolate px-6 pt-14 lg:px-8">
+        </header> */}
+        {/* <div class="relative isolate px-6 pt-14 lg:px-8">
           <div
             class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
             aria-hidden="true"
           >
             <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"></div>
-          </div>
+          </div> */}
           <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             <div class="hidden sm:mb-8 sm:flex sm:justify-center">
               <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
@@ -100,7 +99,7 @@ const Home = () => {
               </p>
               <div class="mt-10 flex items-center justify-center gap-x-6">
                 <Link
-                  to="/"
+                  to="/register"
                   class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Contribute
@@ -113,16 +112,16 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-          </div>
+          {/* </div>
           <div
             class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
             aria-hidden="true"
           >
             <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"></div>
-          </div>
+          </div> */}
         </div>
       </div>
-      <div class="bg-black">
+      {/* <div class="bg-black">
         <div class="container mx-auto flex justify-center mt-8 space-x-8">
           <div class="bg-white rounded-lg shadow-md p-6 w-72">
             <h2 class="text-xl font-semibold mb-4">Contributor</h2>
@@ -184,7 +183,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
