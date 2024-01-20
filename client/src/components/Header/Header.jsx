@@ -49,7 +49,6 @@ const Header = () => {
         <Link to="/login" class="text-sm font-semibold leading-6 text-white">
           Login to Contribute <span aria-hidden="true">&rarr;</span>
         </Link>
-        
       </div>
     </nav>
   );
